@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Codecchio 김예진입니다. '
 description: null
 image: null
 author: null
