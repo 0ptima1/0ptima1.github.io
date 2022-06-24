@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generic
-description: Lorem ipsum dolor est
+description: DSL 7기
 image: assets/images/dsl_gold.jpg
 nav-menu: true
 ---
