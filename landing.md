@@ -10,7 +10,7 @@ nav-menu: true
 <div id="main">
 
 <!-- Cover -->
-<section id="one">
+<section id="cover">
 	<div class="inner">
 		<header class="major">
 			<h2>Deep Learning</h2>
@@ -20,7 +20,7 @@ nav-menu: true
 </section>
 
 <!-- projects -->
-<section id="two" class="spotlights">
+<section id="contents" class="spotlights">
 	<section>
 		<span class="image">
 			<img src="{% link assets/images/projects/mask_rcnn.png %}" alt="" data-position="center center" />
@@ -81,7 +81,7 @@ nav-menu: true
 	</section>
 </section>
 
-<section id="one">
+<section id="cover">
 	<div class="inner">
 		<header class="major">
 			<h2>Distributed Learning</h2>
@@ -90,7 +90,7 @@ nav-menu: true
 	</div>
 </section>
 
-<section id="two" class="spotlights">
+<section id="contents" class="spotlights">
 	<section>
 		<span class="image">
 			<img src="{% link assets/images/projects/distributed_learning.jpg %}" alt="" data-position="center center" />
@@ -115,5 +115,4 @@ nav-menu: true
 		</div>
 	</section>
 </section>
-
 </div>
