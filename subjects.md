@@ -18,6 +18,7 @@ nav-menu: true
 </section>
 
 <!-- Contents-->
+<section id="contents">
 <h4>CNN</h4>
 <div class="table-wrapper">
 	<table>
@@ -47,7 +48,9 @@ nav-menu: true
 		</tbody>
 	</table>
 </div>
+</section>
 
+<section id="contents">
 <h4>GNN</h4>
 <div class="table-wrapper">
 	<table>
@@ -83,7 +86,9 @@ nav-menu: true
 		</tfoot>
 	</table>
 </div>
+</section>
 
+<section id="contents">
 <h4>Recommendation System</h4>
 <div class="table-wrapper">
 	<table>
@@ -125,3 +130,4 @@ nav-menu: true
 		</tbody>
 	</table>
 </div>
+</section>
