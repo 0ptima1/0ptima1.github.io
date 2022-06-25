@@ -75,6 +75,12 @@ nav-menu: true
 				<td><a href="https://yejin109.github.io/gnn/04-han/">link</a></td>
 			</tr>
 		</tbody>
+        <tfoot>
+			<tr>
+				<td colspan="1"></td>
+				<td> </td>
+			</tr>
+		</tfoot>
 	</table>
 </div>
 
