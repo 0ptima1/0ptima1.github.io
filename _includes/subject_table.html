@@ -1,4 +1,5 @@
-<h4>CNN</h4>
+{% if len(site.posts) != 0}
+<h4>Study</h4>
 <div class="table-wrapper">
     <table>
         <thead>
@@ -12,9 +13,11 @@
             {% for post in site.posts %}
             <tr>
                 <td>{{post.title}}</td>
-                <td><a href="{{post.url}}">link</a>Have a look!</td>
+                <td><a href="{{post.url}}">Have a look!</a>
+                </td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
 </div>
+{% endif %}

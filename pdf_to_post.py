@@ -18,7 +18,6 @@ def get_fm(file, title, desc, idx_cover_page: int):
     file.write(f"title: {title}\n")
     file.write(f"description: {desc}\n")
     file.write(f"image : {args['img_path']}/{idx_cover_page}.jpg\n")
-    file.write('nav-menu:false\n')
     file.write('---\n')
     return file
 
