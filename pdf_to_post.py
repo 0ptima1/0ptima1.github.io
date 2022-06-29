@@ -59,7 +59,7 @@ if __name__ == '__main__':
     # args = vars(parser.parse_args())
 
     pdf_path = f"{dir_root}/assets/pdfs/{args['file_name']}.pdf"
-    img_path = f"{dir_root}/assets/images/ppt/{args['file_name']}"
+    img_path = f"assets/images/ppt/{args['file_name']}"
     post_path = f"{dir_root}/_posts/{get_today()}-{args['file_name']}.md"
     args['pdf_path'] = pdf_path
     args['img_path'] = img_path
