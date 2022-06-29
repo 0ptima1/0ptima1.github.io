@@ -12,13 +12,11 @@
         <tbody>
             {% for post in site.posts %}
             <tr>
+
                 <td>{{post.title}}</td>
                 <td><a href="{{post.url}}">Have a look!</a>
                 </td>
             </tr>
-            {% else %}
-            
-            {% endfor %}
         </tbody>
     </table>
 </div>
