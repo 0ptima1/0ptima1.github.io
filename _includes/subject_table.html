@@ -1,0 +1,20 @@
+<h4>CNN</h4>
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Post</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for post in site.posts %}
+            <tr>
+                <td>{{post.title}}</td>
+                <td><a href="{{post.url}}">link</a>Have a look!</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

@@ -1,6 +1,6 @@
 ---
 title: Subjects
-layout: page
+layout: subjects
 description: Consistent study to figure out what I do not know about well"
 image: assets/images/subjects/cover.jpeg
 nav-menu: true
@@ -15,6 +15,23 @@ nav-menu: true
             <h1>Subjects</h1>
         </header>
         <!-- Contents-->
+<h4>CNN</h4>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Post</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sample</td>
+                        <td><a href="">link</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <h4>CNN</h4>
         <div class="table-wrapper">
             <table>
