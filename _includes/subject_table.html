@@ -1,0 +1,26 @@
+
+<h4>Study</h4>
+<div class="table-wrapper">
+    {% for post in site.posts%}
+    <p>{{post.title}}</p>
+    {% endfor%}
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Post</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for post in site.posts %}
+            <tr>
+
+                <td>{{post.title}}</td>
+                <td><a href="{{post.url}}">Have a look!</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
