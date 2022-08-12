@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-Proficient with Python and Dart. Results-oriented with a strong desire to take projects from beginning to end.
+Proficient with Python and Dart. Results-oriented with a strong desire to take projects from beginning to end!
